@@ -1,0 +1,36 @@
+body {
+    background-image: url("/assets/images/background.jpeg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(173, 49, 200);
+}
+
+span {
+    font-size: 2.8rem;
+    color: rgb(188, 20, 222);
+}
+
+.board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    /* Appear in line */
+    flex-wrap: wrap;
+}
+
+.board img {
+    width: 50px;
+    height: 50px;
+}
